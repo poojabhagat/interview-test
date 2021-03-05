@@ -7,7 +7,6 @@ var cookieParser = require('cookie-parser');
 var MongoClient = require('mongodb').MongoClient;
 var http = require('http');
 var session = require('express-session');
-var fs  = require('fs');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
